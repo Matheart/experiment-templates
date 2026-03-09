@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# uv lock (regenerated from pyproject.toml)
+uv.lock
+
+# Experiment outputs (results and plots are regenerated from code)
+results/
+plots/
+logs/
+checkpoints/
+
+# Wandb
+wandb/
+
+# OS
+.DS_Store
